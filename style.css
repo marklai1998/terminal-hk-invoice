@@ -1,0 +1,82 @@
+body {
+    font-size: 16px;
+    line-height: 10px;
+}
+
+p {
+    padding: 0;
+    margin: 5px 0 15px 0;
+}
+
+hr {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+table.invoice {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table.invoice tr td {
+    line-height: 20px;
+    padding: 13px 0 13px 13px;
+}
+
+table.invoice tr.border td {
+    border-bottom: #000000 1px solid;
+}
+
+table.invoice tr:first-child td {
+    text-align: center;
+}
+
+table.invoice tr.total td {
+    text-align: right;
+}
+
+table.invoice tr.total div {
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    padding-right: 60px;
+}
+table.invoice tr:not(:first-child) td:first-child {
+    padding-right: 20px;
+}
+
+table.invoice tr:not(:first-child) td:nth-child(3) {
+    padding-right: 50px;
+}
+
+table.invoice tr:not(:first-child) td:nth-child(4) {
+    padding-right: 80px;
+}
+
+table.invoice tr:last-child td {
+    padding-right: 80px;
+}
+
+.top {
+    padding: 15px;
+}
+
+.link {
+    font-size: 17px;
+    line-height: 10px;
+}
+
+.info {
+    line-height: 25px;
+}
+
+.maintenance {
+    margin-top: 20px;
+    line-height: 35px;
+    padding: 10px;
+}
